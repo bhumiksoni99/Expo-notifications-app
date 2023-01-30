@@ -110,29 +110,3 @@ async function registerForPushNotificationsAsync() {
 
   return token;
 }
-
-// sendFcm = async () => {
-//   console.log("fcm");
-//   try {
-//     await fetch("https://fcm.googleapis.com/fcm/send", {
-//       method: "POST",
-//       headers: {
-//         "Content-Type": "application/json",
-//         Authorization:
-//           "key=AAAA41pZGqY:APA91bGTSTrE7ePx9Fa5inwS8cFcRcd2Vi-SaKz28hix9-DfVoSY5I3Af6mKFytewV1ilhpmVic3NzL1DNhjKdfI7-_qeFBkRbdh_J1g8lRAMs7Y_fbwXr7oqpONzYkmLm1QcIiefYEy",
-//       },
-//       body: JSON.stringify({
-//         to: "ExponentPushToken[3Q_N2XPK6M1zjUhIwwat6V]",
-//         priority: "high",
-//         data: {
-//           experienceId: "bsoni99/dummy-notifications-app",
-//           scopeKey: "bsoni99/dummy-notifications-app",
-//           title: "📧 does this work",
-//           message: "lets see! 🌐",
-//         },
-//       }),
-//     }).then((data) => console.log("then"));
-//   } catch (e) {
-//     console.log(e);
-//   }
-// };
